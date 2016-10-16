@@ -1,0 +1,86 @@
+/*navbar*/
+#header nav{
+	background: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
+/*content*/
+#calltoaction .jumbotron{
+	padding:150px 0px;
+	text-align: center;
+	background: #63AFC7	url('../img/slider4.jpg')top no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+#calltoaction .jumbotron h1,#calltoaction .jumbotron p{
+    -webkit-text-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    -moz-text-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    color:#ffffff;
+}
+#calltoaction .jumbotron .btn-feature{
+	border:1px solid #ffffff;
+	color:#ffffff;
+
+}
+#calltoaction .jumbotron .btn-feature:hover{
+	border:1px solid #ffffff;
+	color:#F1F1F1;
+	
+}
+
+/*feature1*/
+#feature1{
+	background: #ECF0F1;
+	color:#2C3E50;
+	
+
+
+}
+#feature1 .glyphicon{
+	font-size: 50px;
+}
+/*feature2*/
+#featured2{
+	background: #34495E;
+	color:#ffffff;
+	
+}
+#featured2 p{
+	color:#BDC3CF;
+}
+#feature1,#featured2,#feature3,#feature4,#footer{
+	padding:30px 0px;
+	text-align: center;
+}
+.lead{
+	font-size: 14px;
+	font-family: Arial;
+	/*text-align: justify;*/
+}
+.feature3 .lead{
+	text-align: justify;
+}
+/*feature3*/
+#feature3 .row{
+	padding:20px 0px;
+
+}
+#feature4{
+	background: #ECF0F1;
+
+}
+/*footer*/
+#footer{
+	background: #34495E;
+}
+#footer ul li a{
+	color:#ffffff;
+	text-transform: uppercase;
+	
+}

@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Shopping Website</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   
+  <header>
+      <div class="top-bar">
+         <div class="container">
+           <div class="row">
+             <div class="col-sm-12">
+               <div class="pull-left">
+                  <div class="lang">
+                 <!-- Single button -->
+                  <div class="btn-group">
+                  <button type="button" class="no-border btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  English <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu no-border">
+                    <li><a href="#">Vietnamese</a></li>
+                    <li><a href="#">English</a></li>
+                  </ul>
+                  </div>
+               </div>
+               </div>
+               <div class="pull-right">
+                   <ul class="list-unstyled top-links">
+                     <li><a href="">My Account</a></li>
+                     <li><a href="">Wishlist</a></li>
+                     <li><a href="">Check out</a></li>
+                     <li><a href="">Sign in</a></li>
+                     <li><a href="">Create new account</a></li>
+                   </ul>
+               </div>
+             </div>
+           </div>
+         </div>
+      </div>
+      <!-- end .top-bar -->
+      <div class="main-header">
+             <div class="container">
+               <div class="row">
+                 <div class="col-sm-4 search-w">
+                   <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                    </span>
+                  </div><!-- /input-group -->
+                 </div>
+                 <div class="col-sm-4">
+                   <div class="logo text-center">
+                     <a href=""><img src="img/logo.jpg" alt="Logo" /></a>
+                   </div>
+                 </div>
+                 <div class="col-sm-4">
+                   <div class="pull-right">
+                     <div class="cart-wish-w">
+                          <div class="cart-w">
+                            <div class="cart-info">
+                              <span>
+                                <strong>0 item</strong>
+                                <strong>0 item</strong>
+                              </span>
+                              <a href="" class="btn-cart">
+                                <i class="glyphicon glyphicon-shopping-cart"></i>
+                              </a>
+                            </div>
+                            
+                            </div>
+
+                            <div class="wishlist-w">
+                    
+                               <div class="wishlist-info">
+                              <span>
+                                <strong>0 item</strong>
+                                <strong>0 quantity</strong>
+                              </span>
+                              <a href="" class="btn-cart">
+                                <i class="glyphicon glyphicon-heart"></i>
+                              </a>
+                            </div>
+                        
+                     </div>
+                        </div>
+                        
+                   </div>
+                 </div>
+               </div>
+             </div>
+        
+      </div>
+      <!-- end .header-content -->
+      <div class="main-nav">
+      <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+               </button>
+              
+               </div>
+    
+               <div class="row collapse navbar-collapse navbar-ex1-collapse">
+                  <ul class="nav navbar-nav col-xm-12">
+                  <li class="active "><a href="#"><i class="glyphicon glyphicon-home"></i>&nbsp;Home</a></li>
+                  
+                  <li class="dropdown ">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Product
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Men</a></li>
+                      <li><a href="#">Women</a></li>
+                      
+                    
+                    </ul>
+                  </li>
+                  <li><a href="">News</a></li>
+                  <li ><a href="">About</a></li>
+                  <li ><a href="">Blog</a></li>
+                  <li ><a href="">Contact Us</a></li>
+                    </ul>
+               </div>
+             </div>
+             </nav>
+        
+      </div>
+      <!-- end .main-nav -->
+  </header>
+  <div class="clearfix"></div>
+  <section class="slider">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/slider1.jpg" alt="Slider 1">
+              <div class="carousel-caption">
+                <h3>Demo Slider</h3>
+                <p>A slideshow component for cycling through elements, like a carousel. Nested carousels are not supported.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/slider2.jpg" alt="Slider 2">
+              <div class="carousel-caption">
+                <h3>Demo Slider</h3>
+                <p>A slideshow component for cycling through elements, like a carousel. Nested carousels are not supported.</p>
+              </div>
+              </div>
+              <div class="item">
+              <img src="img/slider3.jpg" alt="Slider 3">
+              <div class="carousel-caption">
+                <h3>Demo Slider</h3>
+                <p>A slideshow component for cycling through elements, like a carousel. Nested carousels are not supported.</p>
+              </div>
+              </div>
+            </div>
+         
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+          </a>
+          </div>
+  </section>
+  <!-- end .slider -->
+
+  <section class="content">
+    <div class="container">
+      <div class="promo">
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="">
+              <img src="img/promo1.jpg" alt="Promo 1" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="">
+              <img src="img/promo2.jpg" alt="Promo 2" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="">
+              <img src="img/promo3.jpg" alt="Promo3" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end .promo -->
+      <div class="product-lists">
+         <div class="row">
+           <div class="col-sm-12">
+             <h3 class="box-title">Featured Product</h3>
+           </div>
+         </div>
+        <div class="row ">
+           <div class="product-item col-sm-3">
+              <div class="image">
+                <div class="wishlist">
+                  <a href="#">
+                   <i class=" glyphicon glyphicon-heart"></i>
+                  </a>
+                </div>
+                <img src="img/product/1.jpg" class="img-responsive" alt="product 1" />
+                <div class="line"></div>
+              </div>
+              <div class="title">
+                <h2><a href="">Flying ninja</a></h2>
+              </div>
+              <div class="info">
+                 <div class="pull-left">
+                   <del>
+                     <span>$12</span>
+                   </del>
+                   <ins>
+                     <span>$10</span>
+                   </ins>
+                 </div>
+                 <div class="pull-right">
+                   
+                  <a href="#" class="btn-cart">
+                   <i class="glyphicon glyphicon-shopping-cart"></i>
+                  </a>
+                
+                 </div>
+              </div>
+           </div>
+           <!-- end .product-item -->
+
+           <div class="product-item col-sm-3 col-xm-12">
+              <div class="image">
+                <div class="wishlist">
+                  <a href="#">
+                   <i class=" glyphicon glyphicon-heart"></i>
+                  </a>
+                </div>
+                <img src="img/product/2.jpg" class="img-responsive" alt="product 2" />
+                <div class="line"></div>
+              </div>
+              <div class="title">
+                <h2><a href="">Flying ninja</a></h2>
+              </div>
+              <div class="info">
+                 <div class="pull-left price">
+                   <del>
+                     <span>$12</span>
+                   </del>
+                   <ins>
+                     <span>$10</span>
+                   </ins>
+                 </div>
+                 <div class="pull-right">
+                  
+                  <a href="#" class="btn-cart">
+                   <i class="glyphicon glyphicon-shopping-cart"></i>
+                  </a>
+                
+                 </div>
+              </div>
+           </div>
+           <!-- end .product-item -->
+
+           <div class="product-item col-sm-3">
+              <div class="image">
+                <div class="wishlist">
+                  <a href="#">
+                   <i class=" glyphicon glyphicon-heart"></i>
+                  </a>
+                </div>
+                <img src="img/product/3.jpg" class="img-responsive" alt="product 3" />
+                <div class="line"></div>
+              </div>
+              <div class="title">
+                <h2><a href="">David Backham</a></h2>
+              </div>
+              <div class="info">
+                 <div class="pull-left">
+                   <del>
+                     <span>$12</span>
+                   </del>
+                   <ins>
+                     <span>$10</span>
+                   </ins>
+                 </div>
+                 <div class="pull-right">
+                 
+                  <a href="#" class="btn-cart">
+                   <i class="glyphicon glyphicon-shopping-cart"></i>
+                  </a>
+                
+                 </div>
+              </div>
+           </div>
+           <!-- end .product-item -->
+
+           <div class="product-item col-sm-3">
+              <div class="image">
+                <div class="wishlist">
+                  <a href="#">
+                   <i class=" glyphicon glyphicon-heart"></i>
+                  </a>
+                </div>
+                <img src="img/product/4.jpg" class="img-responsive" alt="product 4" />
+                <div class="line"></div>
+              </div>
+              <div class="title">
+                <h2><a href="">Ronando</a></h2>
+              </div>
+              <div class="info">
+                 <div class="pull-left">
+                   <del>
+                     <span>$12</span>
+                   </del>
+                   <ins>
+                     <span>$10</span>
+                   </ins>
+                 </div>
+                 <div class="pull-right">
+                   
+                  <a href="#" class="btn-cart">
+                   <i class="glyphicon glyphicon-shopping-cart"></i>
+                  </a>
+                
+                 </div>
+              </div>
+           </div>
+           <!-- end .product-item -->
+        </div>
+        <!-- end .row -->
+      </div>
+      <!-- end .product-lists -->
+
+      <div class="about">
+        <div class="row">
+          <div class="col-sm-3">
+             <div class="about-w">
+               <div class="form-about">
+                 <h3>About Prefectum</h3>
+                 <a href="#" class="btn btn-default">Contact Us</a>
+               </div>
+             </div>
+          </div>
+          <div class="col-sm-9 shop-about">
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos expedita in dignissimos, mollitia temporibus error odit, amet laboriosam ipsa accusantium sit tenetur assumenda nulla recusandae cum quae possimus voluptate quaerat.</p>
+             <p>This about text can be edit from theme admin panel</p>
+          </div>
+        </div>
+      </div>
+      <!-- end .about -->
+      <div class="new-lists">
+        <div class="row">
+           <div class="col-sm-12">
+             <h3 class="box-title">NEWS</h3>
+           </div>
+         </div>
+        <div class="row">
+          <div class="col-sm-3 news-item">
+            <span class="date">
+              <i class="glyphicon glyphicon-dashboard"></i>&nbsp;09/05/2016
+            </span>
+            <h2><a href="">Praesent faucibus ligula.</a></h2>
+            <p class="excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique soluta nobis dolor harum, aliquid, laborum veniam est reiciendis nam amet, esse nesciunt commodi modi! Tenetur tempore illo consequatur, assumenda nemo.
+            </p>
+            <a href="#" class="read-more">Read more</a>
+          </div>
+          <!-- end .news-item -->
+            <div class="col-sm-3 news-item">
+            <span class="date">
+              <i class="glyphicon glyphicon-dashboard"></i>&nbsp;09/05/2016
+            </span>
+            <h2><a href="">Praesent faucibus ligula.</a></h2>
+            <p class="excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nulla, vero. Totam quibusdam veniam laborum perspiciatis, impedit quo libero assumenda omnis sed porro corporis, vitae sapiente commodi dolorem eveniet odio!
+            </p>
+            <a href="#" class="read-more">Read more</a>
+          </div>
+          <!-- end .news-item -->
+            <div class="col-sm-3 news-item">
+            <span class="date">
+              <i class="glyphicon glyphicon-dashboard"></i>&nbsp;09/05/2016
+            </span>
+            <h2><a href="">Praesent faucibus ligula.</a></h2>
+            <p class="excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repudiandae a repellat laborum optio, quas id porro quo, soluta, fuga, eum tenetur sit. Laboriosam vel impedit molestiae, sunt, cumque obcaecati?
+            </p>
+            <a href="#" class="read-more">Read more</a>
+          </div>
+          <!-- end .news-item -->
+            <div class="col-sm-3 news-item">
+            <span class="date">
+              <i class="glyphicon glyphicon-dashboard"></i>&nbsp;09/05/2016
+            </span>
+            <h2><a href="">Praesent faucibus ligula.</a></h2>
+            <p class="excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores porro, pariatur nam accusamus dolor voluptate nobis quia ad. Dolores in magnam accusamus temporibus cum quo eligendi aperiam est, dolore eaque?
+            </p>
+            <a href="#" class="read-more">Read more</a>
+          </div>
+          <!-- end .news-item -->
+        </div>
+        <!-- end .row -->
+      </div>
+      <!-- end .news-lists -->
+    </div>
+    <!-- end .container -->
+  </section>
+  <!-- end .content -->
+  <footer class="footer">
+   <div class="footer-custom">
+     <div class="container">
+       <div class="row">
+         <div class="col-sm-3">
+           <div class="title">
+             <h3>About us</h3>
+             <div class="line">
+               
+             </div>
+           </div>
+           <div class="content">
+             <p>This is a CMS block</p>
+             <p>This is a CMS block. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, corporis unde porro facilis sint voluptatibus voluptates nulla fuga, nisi tenetur eligendi soluta, qui! Odit quas alias, repellat dolores doloremque? Deleniti.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat repudiandae laborum laudantium sequi, aut voluptates corrupti corporis id deleniti praesentium eveniet qui modi vel eos sit voluptatem totam, dolore. Minima.</p>
+           </div>
+         </div>
+            <!-- end .about-us -->
+           <div class="col-sm-3">
+           <div class="title">
+             <h3>Contact us</h3>
+             <div class="line">
+               
+             </div>
+           </div>
+           <div class="content contact-us">
+             <div class="item">
+               <div class="icon">
+                 <i class="glyphicon glyphicon-map-marker"></i>
+               </div>
+               <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aut dolore asperiores, officia omnis veritatis, quod accusantium consectetur corporis vel, a at velit expedita distinctio alias sapiente voluptas. Non, impedit.</div>
+             </div>
+               <div class="item">
+               <div class="icon">
+                 <i class="glyphicon glyphicon-phone-alt"></i>
+               </div>
+               <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad soluta quisquam suscipit quis, voluptas laudantium ea sint veniam omnis amet sit quasi vitae neque, culpa quae inventore modi nulla accusamus.</div>
+             </div>
+
+               <div class="item">
+               <div class="icon">
+                 <i class="glyphicon glyphicon-envelope"></i>
+               </div>
+               <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut velit ab, quia optio corporis culpa dolore, illo mollitia nihil. Fuga neque deleniti consectetur mollitia fugit, nostrum praesentium eos accusamus explicabo!</div>
+             </div>
+
+               <div class="item">
+               <div class="icon">
+                 <i class="glyphicon glyphicon-user"></i>
+               </div>
+               <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, a quisquam voluptatum id blanditiis eaque, dicta minus neque quae, esse laudantium. Hic debitis consectetur ratione fuga, molestiae, officiis similique cumque?</div>
+             </div>
+           </div>
+       </div>
+         <!-- end.contact-us -->
+       <div class="col-sm-3">
+         <div class="title">
+           <h3>Twitter</h3>
+           <div class="line"></div>
+         </div>
+         <div class="content">
+           <div class="tweet-content">
+             <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt esse dolor aperiam reiciendis, illo culpa inventore maxime ex dignissimos quia, sed odit molestiae at, voluptatem eligendi a aut expedita minima.</a>
+           </div>
+         </div>
+       </div>
+      <!-- end .twitter -->
+       <div class="col-sm-3">
+         <div class="title">
+           <h3>Fcebook</h3>
+           <div class="line"></div>
+         </div>
+         <div class="content">
+           
+         </div>
+       </div>
+       <!-- end .facebook -->
+       </div>
+     </div>
+   </div>
+   <div class="footer-links">
+     <div class="container">
+       <div class="row">
+          <div class="col-sm-3">
+            <h3>Meta</h3>
+            <ul class="list-unstyled">
+              <li><a href="">Register</a></li>
+              <li><a href="">Login</a></li>
+              <li><a href="">Entries RSS</a></li>
+              <li><a href="">New Product</a></li>
+              <li><a href="">Wordpress.com</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h3>Information</h3>
+             <ul class="list-unstyled">
+              <li><a href="">Register</a></li>
+              <li><a href="">Login</a></li>
+              <li><a href="">Entries RSS</a></li>
+              <li><a href="">New Product</a></li>
+              <li><a href="">Wordpress.com</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h3>Support</h3>
+             <ul class="list-unstyled">
+              <li><a href="">Register</a></li>
+              <li><a href="">Login</a></li>
+              <li><a href="">Entries RSS</a></li>
+              <li><a href="">New Product</a></li>
+              <li><a href="">Wordpress.com</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h3>My account</h3>
+             <ul class="list-unstyled">
+              <li><a href="">Register</a></li>
+              <li><a href="">Login</a></li>
+              <li><a href="">Entries RSS</a></li>
+              <li><a href="">New Product</a></li>
+              <li><a href="">Wordpress.com</a></li>
+            </ul>
+          </div>
+     </div>
+   </div>
+   </div>
+
+   <div class="footer-copyright">
+     <div class="container">
+       <div class="row">
+         <div class="col-sm-12">
+           <p>&copy; 2016 | Theme Custom By Dinhvanmta</p>
+         </div>
+       </div>
+     </div>
+   </div>
+    
+  </footer>
+  <!-- end .footer -->
+
+  
+  </body>
+</html>
